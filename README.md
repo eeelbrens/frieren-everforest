@@ -14,7 +14,7 @@
 - lockscreen: [`swaylock`](https://github.com/swaywm/swaylock) (not shown)
 - notification daemon: [`dunst`](https://github.com/dunst-project/dunst) (not shown)
 - app launcher: [`wofi`](https://sr.ht/~scoopta/wofi/)
-- progress bar: [`wob`](https://github.com/francma/wob) (not shown, not )
+- progress bar: [`wob`](https://github.com/francma/wob) (not shown, not configured)
 
 ### extra dependencies required (check after your sway installation!)
 - sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `swayidle` (for idle settings)
@@ -22,12 +22,12 @@
 
 ### terminal stuff
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
-- text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) (config files for LazyVim are **NOT** included in this repo)
+- text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) (only config files for LazyVim are included)
 - fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch) (with custom colored logo options)
 - color animation: [`pipes.sh`](https://github.com/pipeseroni/pipes.sh)
 
 ### theming stuff
-- theme: [`catppuccin`](https://github.com/catppuccin/catppuccin) frappe
+- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)
 - firefox theming: [`cascade`](https://github.com/cascadefox/cascade) CSS and [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour).
 > [!NOTE]
 > The chrome folder contains my own firefox configs file for cascade. Only the cascade-colours.css file is commented out and had its color theme management to Adaptive Tab Bar Colour (background color is `#2f383e`).
