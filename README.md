@@ -1,4 +1,5 @@
 # frieren-everforest (personal dotfiles based on everforest base16)
+This is my second "dotfiled" rice so far. In a way, it can be considered a direct successor to my [previous setup](https://github.com/eeelbrens/purple-nordic-dotfiles).
 
 ## Previews
 ![2024-06-25T01:02:15,713034935+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/cae74f43-80ba-4d24-9565-42e824e4229b)
@@ -26,7 +27,7 @@
 - character animation: [`cmatrix`](https://github.com/abishekvashok/cmatrix)
 
 ### theming stuff
-- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest).
+- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest)... for GTK4.0 (`nautilus`' theme), check [this repo](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme).
 - wallpaper: [this with all rights reserved](https://wall.alphacoders.com/big.php?i=1350405) (made theme fit more into Everforest's colorscheme in Photopea using layer filters 75% Saturation + 50% Exclusion of `#2f383e`)
 - firefox theming: [`cascade`](https://github.com/cascadefox/cascade) CSS and [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour).
 > [!NOTE]
