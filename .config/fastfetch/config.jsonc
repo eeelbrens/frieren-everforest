@@ -1,0 +1,100 @@
+{ "$schema": 
+  "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json", 
+  "logo": {
+	"type": "auto",
+  "source": "~/.config/fastfetch/frieren.txt",
+	"color":{
+    "1" : "white",
+    "2" : "blue",
+    "3" : "red",
+    "4" : "yellow"
+  },
+  "padding": {
+		"top": 2,
+		"left": 1,
+		"right": 2
+	}
+  },
+  "display": {
+	"separator": " -> "
+  },
+  "modules": [
+	{
+		"type": "custom", // startofinfo
+		"format": "┌───────────────────────────────────────────┐"
+	},
+  {
+		"type": "custom", // start
+		"format": " また会ったときに恥ずかしいからね"
+	},
+	{
+		"type": "custom", // start
+		"format": " It would be embarrasing when we meet again."
+	},
+	{
+		"type": "custom", // middleofinfo
+		"format": "├───────────────────────────────────────────┤"
+	},
+	{
+		"type": "os",
+		"key": "   os"
+	},
+	{
+		"type": "kernel",
+		"key": " krnl"
+	},
+	{
+		"type": "uptime",
+		"key": " uptm"
+	},
+	{
+		"type": "wm",
+		"key": " wdmg"
+	},
+	{
+		"type": "packages",
+		"key": " pkgs"
+	},
+	{
+		"type": "custom", // middleofinfo
+		"format": "├───────────────────────────────────────────┤"
+	},
+	{
+		"type": "cpu",
+		"key": "  cpu"
+	},
+	{
+		"type": "gpu",
+		"key": "  gpu"
+	},
+	{
+		"type": "memory",
+		"key": " mmry"
+	},
+	{
+		"type": "swap",
+		"key": " swap"
+	},
+	{
+		"type": "disk",
+		"key": " disk"
+	},
+	{
+		"type": "custom", // middleofinfo
+		"format": "├───────────────────────────────────────────┤"
+	},
+	{
+		"type": "media", // startmusic
+		"key": " mdia"
+	},
+	{
+		"type": "colors",
+		"symbol": "circle",
+		"key": " clrs"
+	},
+	{
+		"type": "custom", // endofinfo
+		"format": "└───────────────────────────────────────────┘"
+	}
+  ]
+}
