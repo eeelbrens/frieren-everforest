@@ -27,7 +27,7 @@ This is my second "dotfiled" rice so far. In a way, it can be considered a direc
 - character animation: [`cmatrix`](https://github.com/abishekvashok/cmatrix)
 
 ### theming stuff
-- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest)... for GTK4.0 (`nautilus`' theme), check [this repo](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme).
+- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest)... for GTK4.0 (`nautilus`' theme), check [Fausto-Korpsvart's repo](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme).
 - wallpaper: [this with all rights reserved](https://wall.alphacoders.com/big.php?i=1350405) (made theme fit more into Everforest's colorscheme in Photopea using layer filters 75% Saturation + 50% Exclusion of `#2f383e`)
 - firefox theming: [`cascade`](https://github.com/cascadefox/cascade) CSS and [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour).
 > [!NOTE]
