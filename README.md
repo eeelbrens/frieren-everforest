@@ -23,7 +23,7 @@
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
 - text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) (only config files for LazyVim are included)
 - fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch) (with custom colored logo options)
-- color animation: [`pipes.sh`](https://github.com/pipeseroni/pipes.sh)
+- character animation: [`cmatrix`](https://github.com/abishekvashok/cmatrix)
 
 ### theming stuff
 - theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest).
