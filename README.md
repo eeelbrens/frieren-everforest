@@ -14,10 +14,9 @@
 - lockscreen: [`swaylock`](https://github.com/swaywm/swaylock) (not shown)
 - notification daemon: [`dunst`](https://github.com/dunst-project/dunst) (not shown)
 - app launcher: [`wofi`](https://sr.ht/~scoopta/wofi/)
-- progress bar: [`wob`](https://github.com/francma/wob) (not shown, not configured)
 
 ### extra dependencies required (check after your sway installation!)
-- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `swayidle` (for idle settings)
+- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `swayidle` (for idle settings)
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
@@ -27,7 +26,8 @@
 - color animation: [`pipes.sh`](https://github.com/pipeseroni/pipes.sh)
 
 ### theming stuff
-- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)
+- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest).
+- wallpaper: [this with all rights reserved](https://wall.alphacoders.com/big.php?i=1350405) (made theme fit more into Everforest's colorscheme in Photopea using layer filters 75% Saturation + 50% Exclusion of `#2f383e`)
 - firefox theming: [`cascade`](https://github.com/cascadefox/cascade) CSS and [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour).
 > [!NOTE]
 > The chrome folder contains my own firefox configs file for cascade. Only the cascade-colours.css file is commented out and had its color theme management to Adaptive Tab Bar Colour (background color is `#2f383e`).
