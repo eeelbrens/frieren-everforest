@@ -3,20 +3,20 @@ This is my second "dotfiled" rice so far. In a way, it can be considered a direc
 
 ## Previews
 ![2024-06-25T01:02:15,713034935+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/cae74f43-80ba-4d24-9565-42e824e4229b)
-![2024-06-25T01:02:26,282485929+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/1b4900ab-cc5b-4cc4-b204-ba6ee54cd147)
 ![2024-06-25T01:02:44,795341373+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/7f42e1d9-cb84-457a-b481-cc15a1ecad90)
+![2024-06-25T01:02:26,282485929+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/1b4900ab-cc5b-4cc4-b204-ba6ee54cd147)
 
 ## Packages/Dependencies Used
 ### swaywm and co. (major UI elements)
 - wm: [`sway`](https://github.com/swaywm/sway) (the base of this whole rice obv)    
 > [!NOTE]
-> The config files for sway depend on gnome's GTK4.0 theming for `libadwaita` apps (i'm a GNOME departee!) , as well as for user authentication within `nautilus` (via `polkit`). You may want to remove/rewrite those portions accordingly).
+> The config files for sway depend on GNOME's GTK4.0 theming for `libadwaita` apps (i'm a GNOME departee!), as well as for user authentication within `nautilus` (via `polkit`). You may want to remove/rewrite those portions accordingly).
 - main bottom bar: [`waybar`](https://github.com/Alexays/Waybar)
 - lockscreen: [`swaylock`](https://github.com/swaywm/swaylock) (not shown)
 - notification daemon: [`dunst`](https://github.com/dunst-project/dunst) (not shown)
 - app launcher: [`wofi`](https://sr.ht/~scoopta/wofi/)
 
-### extra dependencies required (check after your sway installation!)
+### extra dependencies required (check after your sway config copy)
 - sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `swayidle` (for idle settings)
 - waybar: `playerctl` (for MPRIS media module)
 
