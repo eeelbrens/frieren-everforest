@@ -11,6 +11,12 @@ This is my second "dotfiled" rice so far. In a way, it can be considered a direc
 > - Added changelogs (a meta update ik :) )
 >
 > </p>
+> <summary>v1.0</summary>
+> <p>
+>   
+> - Initial release (reminder that I'll continue to add functionality to this setup the more I use it)
+>
+> </p>
 > </details></details>
 
 ## Previews
