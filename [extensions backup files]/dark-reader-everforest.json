@@ -29,14 +29,17 @@
     "enabledByDefault": true,
     "enabledFor": [],
     "disabledFor": [
-        "tinted-theming.github.io"
+        "tinted-theming.github.io",
+        "youtube.com",
+        "github.com",
+        "docs.google.com"
     ],
     "changeBrowserTheme": false,
     "syncSettings": true,
     "syncSitesFixes": false,
     "automation": {
-        "enabled": false,
-        "mode": "",
+        "enabled": true,
+        "mode": "system",
         "behavior": "OnOff"
     },
     "time": {
