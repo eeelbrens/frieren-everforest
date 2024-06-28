@@ -1,4 +1,4 @@
-# frieren-everforest (personal dotfiles based on everforest base16)
+# frieren-everforest (personal dotfiles based on everforest base16) (v1.1)
 This is my second "dotfiled" rice so far. In a way, it can be considered a direct successor to my [previous setup](https://github.com/eeelbrens/purple-nordic-dotfiles).
 
 ## Previews
@@ -33,5 +33,6 @@ This is my second "dotfiled" rice so far. In a way, it can be considered a direc
 > [!NOTE]
 > The chrome folder contains my own firefox configs file for cascade. Only the cascade-colours.css file is commented out and had its color theme management to Adaptive Tab Bar Colour (background color is `#2f383e`).
 - theme for websites: [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search).
+- theme for YouTube: [Enhancer for YouTube](https://www.mrfdev.com/enhancer-for-youtube).
 - fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono) (monospace, non-nerd variant), [Rubik](https://fonts.google.com/specimen/Rubik) (sans-serif)
 - cursor: [Bibata-Modern-Classic](https://www.bibata.live/) (not shown in screenshots)
