@@ -200,8 +200,9 @@ bar {
 set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
 exec rm -f $WOBSOCK && mkfifo $WOBSOCK && tail -f $WOBSOCK | wob
 
-#grimshot
-bindsym $mod+Shift+p exec grimshot --notify savecopy anything
+#Screenshots and Screen Records
+bindsym $mod+p exec grimshot --notify savecopy anything
+bindsym $mod+Shift+p exec `bash ~/.config/sway/toggle-screen-recorder.sh`
 
 #Audio/Brightness Key Bindings
 bindsym XF86AudioPlay exec playerctl play-pause
