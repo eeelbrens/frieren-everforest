@@ -10,14 +10,15 @@ This is my second "dotfiled" rice so far. In a way, it can be considered a direc
 > - Added screen recordings capabilites in sway config via `wf-recorder`
 > - Added changelogs (a meta update ik :) )
 >
-> </p>
+> </p></details>
+> <details>
 > <summary>v1.0</summary>
 > <p>
 >   
 > - Initial release (reminder that I'll continue to add functionality to this setup the more I use it)
 >
-> </p>
-> </details></details>
+> </p></details>
+> </details>
 
 ## Previews
 ![2024-06-25T01:02:15,713034935+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/cae74f43-80ba-4d24-9565-42e824e4229b)
