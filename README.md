@@ -1,6 +1,18 @@
 # frieren-everforest (personal dotfiles based on everforest base16) (v1.1)
 This is my second "dotfiled" rice so far. In a way, it can be considered a direct successor to my [previous setup](https://github.com/eeelbrens/purple-nordic-dotfiles).
 
+> [!IMPORTANT]
+> <details><summary>Changelogs</summary><br>
+> <details>
+> <summary>v1.1</summary>
+> <p>
+>   
+> - Added screen recordings capabilites in sway config via `wf-recorder`
+> - Added changelogs (a meta update ik :) )
+>
+> </p>
+> </details></details>
+
 ## Previews
 ![2024-06-25T01:02:15,713034935+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/cae74f43-80ba-4d24-9565-42e824e4229b)
 ![2024-06-25T01:02:44,795341373+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/7f42e1d9-cb84-457a-b481-cc15a1ecad90)
@@ -17,7 +29,7 @@ This is my second "dotfiled" rice so far. In a way, it can be considered a direc
 - app launcher: [`wofi`](https://sr.ht/~scoopta/wofi/)
 
 ### extra dependencies required (check after your sway config copy)
-- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `swayidle` (for idle settings)
+- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings)
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
