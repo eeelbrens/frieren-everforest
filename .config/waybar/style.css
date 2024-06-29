@@ -21,6 +21,7 @@ window#waybar.hidden {
     }
 }
 
+/*v1.2 optional*//*
 window#waybar.battery-great {
     background-color: @base0D;
     animation-name: blinkr;
@@ -37,7 +38,7 @@ window#waybar.battery-critical {
     animation-timing-function: steps(2);
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
+}*/
 
 /*
 window#waybar.empty {
