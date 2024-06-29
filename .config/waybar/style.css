@@ -15,6 +15,30 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+@keyframes blinkr {
+    to {
+        background-color: @base00;
+    }
+}
+
+window#waybar.battery-great {
+    background-color: @base0D;
+    animation-name: blinkr;
+    animation-duration: 1s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+window#waybar.battery-critical {
+    background-color: @base0E;
+    animation-name: blinkr;
+    animation-duration: 1s;
+    animation-timing-function: steps(2);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 /*
 window#waybar.empty {
     background-color: transparent;
@@ -126,7 +150,9 @@ button:hover {
 #battery.warning:not(.charging) {
     color: @base0C;
   }
+
 /* Using steps() instead of linear as a timing function to limit cpu usage */
+/*
 #battery.critical:not(.charging) {
     color: @base0E;
     animation-name: blink;
@@ -135,6 +161,7 @@ button:hover {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+*/
 
 #power-profiles-daemon {
 }
