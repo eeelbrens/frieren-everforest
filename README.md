@@ -1,8 +1,16 @@
-# frieren-everforest (personal dotfiles based on everforest base16) (v1.1)
+# frieren-everforest (personal dotfiles based on everforest base16) (v1.2)
 This is my second "dotfiled" rice so far. In a way, it can be considered a direct successor to my [previous setup](https://github.com/eeelbrens/purple-nordic-dotfiles).
 
 > [!IMPORTANT]
 > <details><summary>Changelogs</summary><br>
+> <details>
+> <summary>v1.2</summary>
+> <p>
+>   
+> - Added bar blinking functionality to protect battery and remind of critical battery% (commented out, you can always uncomment).
+> - Changed `dunst`rc file  to better fit theme.
+>
+> </p></details>
 > <details>
 > <summary>v1.1</summary>
 > <p>
