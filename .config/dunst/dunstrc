@@ -218,7 +218,7 @@
     # icon_theme = "Adwaita, breeze"
 
     # Align icons left/right/top/off
-    icon_position = left
+    icon_position = off
 
     # Scale small icons up to this size, set to 0 to disable. Helpful
     # for e.g. small files or high-dpi screens. In case of conflict,
@@ -332,14 +332,14 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#374247"
-    foreground = "#859289"
+    background = "#2f383e"
+    foreground = "#d3c6aa"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#4a555b"
+    background = "#2f383e"
     foreground = "#d3c6aa"
     timeout = 10
     override_pause_level = 30
@@ -347,9 +347,10 @@
     #default_icon = /path/to/icon
 
 [urgency_critical]
-    background = "#7fbbb3"
-    foreground = "#e4e1cd"
-:    timeout = 0
+    background  = "#2f383e"
+    foreground  = "#d3c6aa"
+    frame_color = "#e67e80"
+    timeout = 60
     override_pause_level = 60
     # Icon for notifications with critical urgency, uncomment to enable
     #default_icon = /path/to/icon
@@ -483,20 +484,20 @@
 #
 # vim: ft=cfg
 [global]
-frame_color = "#d8d8d8"
-separator_color = "#d8d8d8"
+frame_color = "#d3c6aa"
+separator_color = "#d3c6aa"
 
 [base16_low]
     msg_urgency = "low"
-    background = "#282828"
-    foreground = "#585858"
+    background = "#2f383e"
+    foreground = "#d3c6aa"
 
 [base16_normal]
     msg_urgency = "normal"
-    background = "#383838"
-    foreground = "#d8d8d8"
+    background = "#2f383e"
+    foreground = "#d3c6aa"
 
 [base16_critical]
     msg_urgency = "critical"
-    background = "#ab4642"
-    foreground = "#e8e8e8"
+    background = "#2f383e"
+    foreground = "#d3c6aa"
