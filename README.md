@@ -1,32 +1,8 @@
-# frieren-everforest (personal dotfiles based on everforest base16) (v1.2)
+# frieren-everforest (personal dotfiles based on everforest base16) (v1.2) (abandoned)
 This is my second "dotfiled" rice so far. In a way, it can be considered a direct successor to my [previous setup](https://github.com/eeelbrens/purple-nordic-dotfiles).
 
 > [!IMPORTANT]
-> <details><summary>Changelogs</summary><br>
-> <details>
-> <summary>v1.2</summary>
-> <p>
->   
-> - Added bar blinking functionality to protect battery and remind of critical battery% (commented out, you can always uncomment).
-> - Changed `dunst`rc file  to better fit theme.
->
-> </p></details>
-> <details>
-> <summary>v1.1</summary>
-> <p>
->   
-> - Added screen recordings capabilites in sway config via `wf-recorder`
-> - Added changelogs (a meta update ik :) )
->
-> </p></details>
-> <details>
-> <summary>v1.0</summary>
-> <p>
->   
-> - Initial release (reminder that I'll continue to add functionality to this setup the more I use it)
->
-> </p></details>
-> </details>
+> 
 
 ## Previews
 ![2024-06-25T01:02:15,713034935+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/cae74f43-80ba-4d24-9565-42e824e4229b)
