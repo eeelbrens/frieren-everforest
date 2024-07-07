@@ -1,4 +1,4 @@
-# frieren-everforest (personal dotfiles based on everforest base16)
+# frieren-everforest (personal dotfiles based on everforest base16) (RETIRED)
 This is my second "dotfiled" rice so far. In a way, it can be considered a direct successor to my [previous setup](https://github.com/eeelbrens/purple-nordic-dotfiles).
 
 > [!NOTE]
