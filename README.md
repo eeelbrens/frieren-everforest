@@ -1,8 +1,7 @@
 # frieren-everforest (personal dotfiles based on everforest base16)
-> [!NOTE]
-> I use [this setup now](https://github.com/eeelbrens/doppio-everforest). This repo is kept around for those who like this kind of aesthetics (rowdy vs simple wallpaper setups).
 
-This is my second "dotfiled" rice so far. In a way, it can be considered a direct successor to my [previous setup](https://github.com/eeelbrens/purple-nordic-dotfiles).
+> [!NOTE]
+> I'm using [this setup](https://github.com/eeelbrens/dotfiles-gruvbox) right now, which builds on this rice in one way or another. Go check it out!
 
 ## Previews
 ![2024-06-25T01:02:15,713034935+03:00](https://github.com/eeelbrens/frieren-everforest/assets/130598002/cae74f43-80ba-4d24-9565-42e824e4229b)
